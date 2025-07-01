@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as f:
 
 setup(
     name="browser-history-analytics-2",
-    version="1.0.0",
+    version="1.0.1",
     author="Arpit Sengar (arpy8)",
     description="A package to visualize your browser history :D",
     long_description=long_description,

@@ -21,8 +21,6 @@ def main():
             sb.run([
                 sys.executable, "-m", "streamlit", "run", script_path,
                 "--server.port", str(PORT),
-                "--server.address", "0.0.0.0",
-                "--server.headless", "true"
             ], check=True, stdout=fnull, stderr=fnull)
         
 
