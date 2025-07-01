@@ -45,17 +45,13 @@ pip install -e .
 ### Option 2: Install directly
 
 ```bash
-pip install https://github.com/arpy8/browser-history-analytics-2/archive/main.zip
+pip install browser-history-analytics-2
 ```
 
 ## Usage
-Command prompt: 
+Type the following command in your terminal: 
 ```
-pip install https://github.com/arpy8/browser-history-analytics-2/archive/main.zip && bha
-```
-Powershell: 
-```
-pip install https://github.com/arpy8/browser-history-analytics-2/archive/main.zip ; bha
+pip install browser-history-analytics-2 && bha
 ```
 
 This will launch the web application in your default browser.
@@ -87,10 +83,6 @@ This will launch the web application in your default browser.
 * `plotly`
 * `pandas`
 * `browser-history`
-* `numpy`
-* `seaborn`
-* `matplotlib`
-* `urllib3`
 
 ## Privacy Note
 

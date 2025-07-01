@@ -1,9 +1,4 @@
 import plotly.express as px
-import plotly.graph_objects as go
-from plotly.subplots import make_subplots
-import pandas as pd
-import numpy as np
-
 
 def create_top_domains_chart(df, top_n=10):
     """Create a bar chart of top visited domains"""

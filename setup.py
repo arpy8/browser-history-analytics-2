@@ -16,16 +16,12 @@ setup(
         'browser_history_analytics_2': ['*.py'],
     },
     install_requires=[
-        "streamlit", 
-        "plotly", 
-        "pandas", 
-        "browser-history", 
-        "numpy", 
-        "seaborn", 
-        "matplotlib", 
-        "urllib3",
-        "setuptools==66.1.1",
         "rich",
+        "pandas", 
+        "streamlit", 
+        "plotly[express]", 
+        "browser-history", 
+        "setuptools==66.1.1",
     ],
     entry_points={
         "console_scripts": [
